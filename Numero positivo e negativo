@@ -1,0 +1,14 @@
+for i in range(5):
+
+  numero = int(input("Digite um numero: "))
+  if numero %2 == 0:
+    print("Numero par ")
+  else:
+    print("Número é ímpar")
+  if numero > 0:
+    print("Numero é positivo")
+  elif numero < 0:
+    print("Numero é negativo")
+  else:
+    print("Este numero é neutro")
+    
